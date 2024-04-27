@@ -21,5 +21,8 @@ Currency Converter is a simple React application that allows users to convert cu
 - Tailwind CSS
 - RapidAPI (Currency Converter Pro API)
 
+## Demo
+- https://currencyconverter-bysaqib.netlify.app
+
 
 
