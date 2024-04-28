@@ -222,7 +222,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-slate-200 w-80 mx-auto mt-28 p-6 rounded-lg">
+      <div className="bg-slate-300 w-80 mx-auto mt-28 p-6 rounded-lg">
         <h1 className="font-bold text-xl text-center">Currency Converter</h1>
 
         <div className="mt-4 ">
