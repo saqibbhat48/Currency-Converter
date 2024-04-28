@@ -223,7 +223,7 @@ function App() {
   return (
     <>
       <div className="bg-slate-200 w-80 mx-auto mt-28 p-6 rounded-lg">
-        <h1 className="font-bold text-xl">Currency Converter</h1>
+        <h1 className="font-bold text-xl text-center">Currency Converter</h1>
 
         <div className="mt-4 ">
           <h4>Enter Amount</h4>
@@ -244,7 +244,7 @@ function App() {
                 alt=""
                 width={30}
               />
-              <select value={flag} onChange={handleChange}>
+              <select className="bg-white" value={flag} onChange={handleChange}>
                 {options.map((currency) => {
                   return (
                     <option key={uuidv4()} value={currency}>
@@ -273,7 +273,7 @@ function App() {
                 alt=""
                 width={30}
               />
-              <select value={toFlag} onChange={handleToChange}>
+              <select className="bg-white" value={toFlag} onChange={handleToChange}>
                 {options.map((currency) => {
                   return (
                     <option key={uuidv4()} value={currency}>
@@ -299,7 +299,7 @@ function App() {
 
         <p>
           <span className="font-bold">Note:</span> After entering amount please
-          click button for conversion
+          click button for conversion.
         </p>
       </div>
     </>
